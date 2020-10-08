@@ -1,13 +1,16 @@
+/*This is setting up the margin and boundaries for the entire webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This is making the background color of the main portion of the webpage an off-white*/
 body {
     background-color: #d9dcd6;
 }
 
+/*The header is padded and is a shade of blue*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/*The headline in the header is set with its own width and height and has the font size of 48px*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*The seo will stand out as a different color in the word "Horiseon"*/
 .seo {
     color: #d9dcd6;
 }
 
+/*The navigation menu will be centered in the right half of the header*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ nav {
     font-size: 20px;
 }
 
+/*The navigation menu does not have any bullets*/
 nav ul {
     list-style-type: none;
 }
 
+/*The navigation menu will have its own heighth and width and set to the left within its margins*/
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*The text within the navigation menu will be white*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*This is the font size of the text within the paragraphs*/
 p {
     font-size: 16px;
 }
 
+/*An image that will make up the top half of the page, it will sit under the header*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/*Images within "Search Engine Optomzation" and "Social Media Marketing" sections will float to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Image within the "Online Reputation Marketing" section will float to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*These are the boundaries that contain the main division*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*ALL sections within the main division will be blue, will all be the same size, and have the same font size, style, and color*/
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,15 +99,18 @@ main section {
     color: #ffffff;
 }
 
+/*ALL images within the main division will be the same height*/
 main section img {
     max-height: 200px;
 }
 
+/*ALL headers within the main division will be the same size*/
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*This is another division that will be located on the right side of the page. It will also be blue.*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +122,26 @@ aside {
     background-color: #2589bd;
 }
 
+/*ALL sections within the aside division will share the same margins and font color*/
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*ALL headers within the aside division will be centered and share the same margins*/
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*ALL images within the aside division will share the same height, margins, and will be centered above its text*/
 aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*The footer will be centered and located on the bottom of the page, clear of floats*/
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ footer {
     text-align: center;
 }
 
+/*This is the footers font size*/
 footer h2 {
     font-size: 20px;
 }
