@@ -8,7 +8,7 @@ During this project, it was my task to take an already developed website and mak
 
 Here is the appearence of the updated website.
 
-![Meeting Accessibility Standards Update](screenshot.png)
+![Meeting Accessibility Standards Update](assets/screenshot.png)
 
 ## Link
 
